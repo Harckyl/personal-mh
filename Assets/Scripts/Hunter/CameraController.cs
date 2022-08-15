@@ -15,6 +15,7 @@ public class CameraController : MonoBehaviour
     {
         float rotateY = Input.GetAxis("CamY");
         float rotateX = Input.GetAxis("CamX");
+
         Vector3 newAngle = transform.eulerAngles + _speed * new Vector3(rotateY, rotateX, 0);
         if ( newAngle.x >= 0 && newAngle.x <= 90 )
         {
