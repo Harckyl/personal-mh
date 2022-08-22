@@ -67,7 +67,7 @@ MonoBehaviour:
   _hunter: {fileID: 318549368197395157}
   _walkSpeed: 3
   _runSpeed: 10
-  _cameraOrientation: {fileID: 8161490116280822848}
+  _camera: {fileID: 8161490116280822848}
   _characterController: {fileID: 3100369660683393864}
   turnSmoothTime: 0.1
 --- !u!1001 &279521741823923518
